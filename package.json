@@ -1,0 +1,30 @@
+{
+  "name": "objectikoa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-node src/index",
+    "build": "babel src --out-dir lib --source-maps",
+    "knex": "babel-node ./node_modules/.bin/knex"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "sqlite3": "^3.1.9"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "knex": "^0.13.0",
+    "koa": "^2.3.0",
+    "objection": "^0.8.7",
+    "pg": "^7.1.2",
+    "uuid": "^3.1.0"
+  }
+}

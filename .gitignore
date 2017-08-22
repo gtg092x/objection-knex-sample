@@ -1,0 +1,4 @@
+*.sqlite3
+lib
+node_modules
+.idea
